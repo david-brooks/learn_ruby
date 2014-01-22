@@ -1,7 +1,7 @@
 class Book
 
 	def title=(string) 
-		@title = string
+		@title = string		#make instance variable equal to string
 	end
 
 	def title

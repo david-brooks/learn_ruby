@@ -14,3 +14,10 @@ class Timer
 		time.strftime "%H:%M:%S"
 	end
 end
+
+
+time.strftime('%T')
+#return Time.at(seconds).gmtime.strftime('%R:%S')
+def time_string
+#Time.at(seconds).gmtime.strftime('%T')
+end
